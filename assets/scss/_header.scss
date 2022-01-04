@@ -1,0 +1,10 @@
+@import 'mixins';
+
+.header {
+    @include sombra();
+
+    h1 {
+        color: #ccc;
+        @include sombra();
+    }
+}
